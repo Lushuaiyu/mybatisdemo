@@ -1,6 +1,6 @@
 package com.or.mybatisdemo.query;
 
-import com.or.mybatisdemo.baseQuery.BaseQuery;
+import com.or.mybatisdemo.base.baseQuery.BaseQuery;
 
 /**
  * @ClassName

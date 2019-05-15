@@ -1,12 +1,13 @@
 package com.or.mybatisdemo.domain.dao;
 
+import com.or.mybatisdemo.base.baseMapper.BaseMapper;
 import com.or.mybatisdemo.domain.eneity.User;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 import java.util.Map;
 
-public interface UserMapper {
+public interface UserMapper extends BaseMapper<User> {
     int deleteByPrimaryKey(Integer id);
 
     int insert(User record);
@@ -19,6 +20,6 @@ public interface UserMapper {
 
     int updateByPrimaryKey(User record);
 
-    public List<User> queryParams( Map<String, Object> map);
+
 
 }

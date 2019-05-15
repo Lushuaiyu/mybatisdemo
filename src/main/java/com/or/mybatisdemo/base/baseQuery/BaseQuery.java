@@ -1,7 +1,7 @@
-package com.or.mybatisdemo.baseQuery;
+package com.or.mybatisdemo.base.baseQuery;
 
 /**
- * @ClassName
+ * @ClassName BaseQuery
  * @Description TODO
  * @Author lushuaiyu
  * @Data 2019-05-12 13:52
